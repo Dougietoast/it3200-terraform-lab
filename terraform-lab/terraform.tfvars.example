@@ -1,0 +1,5 @@
+# Copy to terraform.tfvars to override defaults (terraform.tfvars is gitignored)
+aws_region    = "us-west-2"
+aws_profile   = "default"
+bucket_prefix = "dougietoast-it3200-iac"
+owner         = "Douglas"

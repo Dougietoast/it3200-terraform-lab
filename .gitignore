@@ -1,0 +1,12 @@
+# Terraform state can contain sensitive data - never commit it
+*.tfstate
+*.tfstate.*
+.terraform/
+crash.log
+crash.*.log
+
+# Local variable values
+*.tfvars
+!*.tfvars.example
+
+.DS_Store
